@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(0, 0, 28);
+}
+h1{
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.corpo{
+    display:flex;
+    align-items: center;
+    justify-items: block;
+}
