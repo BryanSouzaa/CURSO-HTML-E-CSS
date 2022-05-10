@@ -11,10 +11,21 @@
     src: url('Sriracha-Regular.ttf') format('truetype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'slipper';
+    src: url('OPTISlipper.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+
 :root {
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One', cursivo;
-    --fonte3: 'Sriracha', cursiva;
+    --fonte-destaque:'passionone', cursivo;
+    --fonte3:'sriracha', cursiva;
+    --fonte4:'slipper';
+  
 }
 
 *{
@@ -26,6 +37,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    
 }
 
 header{
@@ -37,7 +49,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    
+    font-size: 8vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -58,6 +70,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
 }
 
 section.normal{
@@ -71,7 +84,8 @@ section.imagem{
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.127);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{

@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'bebas';
-    src: url(BebasNeue-Regular.otf) format('opentype');
+    src: url('BebasNeue-Regular.otf') format('opentype');
 }
 @font-face {
     font-family: 'android';
